@@ -12,4 +12,8 @@ Made with love and:
 * CSS
 * Vanilla JavaScript
 
+### Usage
+
+Live Demo: [http://jagged-things.surge.sh](http://jagged-things.surge.sh)
+
 ![Screenshot of the Color Guessing Game](screenshot.png)
