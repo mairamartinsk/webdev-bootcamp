@@ -1,6 +1,18 @@
 body {
   background-color: #232323;
   color: white;
+  margin: 0;
+  font-family: "Montserrat", "Avenir", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.1;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
 
 .square {
@@ -9,9 +21,54 @@ body {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 10%;
+  transition: background-color 0.6s;
+  -webkit-transition: background-color 0.6s; // Safari support
+  -moz-transition: background-color 0.6s; // Mozilla support
 }
 
 #container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+
+#stripe {
+  background-color: white;
+  color: black;
+  height: 30px;
+  text-align: center;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+button {
+  border: 0;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: 85%;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; // Safari support
+  -moz-transition: all 0.3s; // Mozilla support
+  outline: none;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
 }
