@@ -2,11 +2,11 @@
 
 ## Colt Steele's Udemy Course
 
-Repo for my Bootcamp's main projects. Smaller exercise files and code practice not included. Click on the completed project links to see full code, screenshot and live demo!
+Repo for The Web Developer Bootcamp's main projects. Smaller exercise files and code practice not included. Click on the completed project links to see full code, screenshot and live demo!
 
 ### Projects
 - [x] [Color Game](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/color-game)
-- [ ] To Do List
+- [x] [To Do List](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/todo-app)
 - [ ] Patatap Clone
 - [ ] RESTful Blog
 - [ ] YelpCamp
