@@ -7,7 +7,7 @@ Repo for The Web Developer Bootcamp's main projects. Smaller exercise files and 
 ### Projects
 - [x] [Color Game](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/color-game)
 - [x] [To Do List](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/todo-app)
-- [ ] Patatap Clone
+- [x] [Patatap Clone](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/patatap)
 - [ ] RESTful Blog
 - [ ] YelpCamp
 
