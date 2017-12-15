@@ -56,6 +56,35 @@ app.post('/blogs', function(req, res){
   });
 });
 
+// Show route
+app.get('/blogs/:id', function(req, res){
+  Blog.findById(req.params.id, function(error, getBlog){
+    if (error) {
+      console.log(error);
+      res.redirect('/blogs');
+    } else {
+      res.render('show', {blog: getBlog});
+    }
+  });
+});
+
+// Edit route
+app.get('/blogs/:id/edit', function(req, res){
+  Blog.findById(req.params.id, function(error, getBlog){
+    if (error) {
+      console.log(error);
+      res.redirect('/blogs');
+    } else {
+      res.render('edit', {blog: getBlog});
+    }
+  });
+});
+
+// Update route
+
+
+// Destroy route
+
 
 // START SERVER
 
