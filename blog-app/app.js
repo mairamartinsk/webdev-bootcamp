@@ -1,13 +1,15 @@
 var express = require('express'),
     app = express(),
     mongoose = require('mongoose'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    methodOverride = require('method-override');
 
 mongoose.connect("mongodb://localhost/restful_app", {useMongoClient: true});
 mongoose.Promise = global.Promise;
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(methodOverride('_method'));
 
 
 // MONGOOSE CONFIG SCHEMA AND MODEL
@@ -81,7 +83,16 @@ app.get('/blogs/:id/edit', function(req, res){
 });
 
 // Update route
-
+app.put('/blogs/:id', function(req, res){
+  Blog.findByIdAndUpdate(req.params.id, req.body.blog, function(error, updatedBlog){
+    if (error) {
+      console.log(error);
+      res.redirect('/blogs');
+    } else {
+      res.redirect('/blogs/' + req.params.id);
+    }
+  });
+});
 
 // Destroy route
 
