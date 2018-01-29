@@ -8,8 +8,8 @@ Repo for The Web Developer Bootcamp's main projects. Smaller exercise files and 
 - [x] [Color Game](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/color-game)
 - [x] [To Do List](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/todo-app)
 - [x] [Patatap Clone](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/patatap)
-- [ ] RESTful Blog
-- [ ] YelpCamp
+- [x] [RESTful Blog](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/blog-app)
+- [x] [YelpCamp](https://github.com/mairamartinsk/webdev-bootcamp/tree/master/yelp-camp)
 
 ### Course Review
 
