@@ -1,0 +1,3 @@
+[submodule "yelp-camp"]
+	path = yelp-camp
+	url = https://github.com/mairamartinsk/yelp-camp.git
